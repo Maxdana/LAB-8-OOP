@@ -1,0 +1,39 @@
+//---------------------------------------------------------------------------
+
+#ifndef Currency_UnitH
+#define Currency_UnitH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TRadioButton *RadioButton1;
+	TRadioButton *RadioButton2;
+	TEdit *Edit1;
+	TEdit *Edit2;
+	TEdit *Edit3;
+	TEdit *Edit4;
+	TButton *Button1;
+	TButton *Button2;
+	TButton *Button3;
+	TLabel *Label1;
+	TLabel *Label3;
+	TLabel *Label4;
+	void __fastcall RadioButton2Click(TObject *Sender);
+	void __fastcall RadioButton1Click(TObject *Sender);
+	void __fastcall Button2Click(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall Button3Click(TObject *Sender);
+	void __fastcall Label3Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
